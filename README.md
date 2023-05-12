@@ -79,7 +79,9 @@ Character sheets are defined by the following high-level concepts
     - you must include a content-type header of application/json for the post to be accepted 
 
 ✅ 7. Implement a maximum on all attributes of 70. For example, if a character has 20 strength and 10 for all other attributes, they must decrease one before they can increase another
+
 8. Add the ability to edit multiple characters simultaneously with the same rules above
+
 9. Add a Skill Check section for each character. This represents a character's attempt to perform an action
     - the character is successful if they meet or exceed the DC (see below) of the skill check. Add the total skill to a random number between 1 and 20 inclusive, if this meets or exceeds the DC the skill check is successful, otherwise it's a failure
     - Add the following controls to the UI
@@ -89,5 +91,6 @@ Character sheets are defined by the following high-level concepts
     - When the Roll button is clicked, display the following
       - What the random number generated was
       - If the skill check is successful or a failure
+
 10. Add a party skill check section. This is the same as the above, except we should use the character with the highest skill total to attempt the action
   - Show which character was selected to attempt the action
